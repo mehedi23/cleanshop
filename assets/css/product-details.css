@@ -1,0 +1,166 @@
+:root {
+    --main-color: #35b3f1;
+    --secondary-color: #004976;
+}
+
+/* product looks start */
+
+#products-look{
+    margin: 70px 0;
+}
+
+.main-product{
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.sub-product{
+    margin-top: 30px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.sub-product-img{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.active-img{
+    opacity: 1;
+    border: 2px solid black;
+}
+
+.product-name{
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+
+.price{
+    font-size: 25px;
+}
+
+.some-about-oroduct{
+    color: var(--main-color);
+    margin: 40px 0;
+}
+
+.catagorice span{
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.catagorice a{
+    color: var(--main-color);
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.about-product .social-icons li a{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.about-product .social-icons{
+    margin: 30px 0;
+}
+
+.about-product form{
+    margin-top: 50px;
+}
+
+.order-btn{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+.favourite-btn{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.number-of-order{
+    height: 50px;
+    width: 100px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+/* product looks end */
+
+
+/* product review start */
+
+#product-review{
+    margin: 70px 0;
+}
+
+.review-menu{
+    margin: 0 auto !important;
+    width: 70%;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px !important;
+}
+
+.review-menu li a{
+    font-weight: 600;
+    color: var(--main-color);
+    margin: 0 10px;
+    border: none !important;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.review-menu li .active{
+    border-bottom: 2px solid var(--secondary-color) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    color: var(--secondary-color);
+}
+
+.review-menu li a:hover{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 2px solid var(--secondary-color) !important;
+}
+
+.review-area{
+    min-height: 420px;
+}
+
+.product-full-description p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.product-full-review p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.aditional-info h2{
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.aditional-info tr{
+    color: var(--main-color);
+}
+/* product review end */
